@@ -71,8 +71,6 @@ function calculateResults(incomingData) {
       tot.push(cRow);
     });    
   }
-  //console.log("byCustomer", byCustomer);
-  //console.log("tot", tot);
   let totByCustomer = [];
   for (custKey in totalPointsByCustomer) {    
     totByCustomer.push({
